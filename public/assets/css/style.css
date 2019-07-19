@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#main {
+    height: 100%;
+}
+
+/* 
+.content {
+    flex: 1 0 auto;
+} */
+
+.w3-blue, .w3-hover-blue:hover {
+    color: #fff!important;
+    background-color: rgb(0, 140, 255)!important
+}
+
+.headerColor {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    text-align: center;
+}
